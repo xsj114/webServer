@@ -99,7 +99,6 @@ const serverHandle = (req,res)=>{
 
         const blogResult = handleBlogRouter(req,res)
         const userResult = handleUserRouter(req,res)
-        console.log(blogResult)
         if(blogResult){
             blogResult.then(blogData=>{
                 if (needSetCookie) {
