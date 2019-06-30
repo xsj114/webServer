@@ -9,6 +9,7 @@ router.get('/list', (req, res, next) => {
     let keyword = req.query.keyword
 
     if (req.query.isadmin) {
+		console.log('is admin')	
         if (req.session.username == null) {
             res.json(new ErrorModel('未登录'))
             return
