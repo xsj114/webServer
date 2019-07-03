@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e3d95c2-9e6c-4aa4-9ffc-f2d0a5f75cf6" name="Default Changelist" comment="" />
+    <list default="true" id="8e3d95c2-9e6c-4aa4-9ffc-f2d0a5f75cf6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/koa/conf/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa/controller/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa/controller/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa/db/mysql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa/middleware/loginCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa/model/resModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa/utils/cryp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa/package.json" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/node/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,10 +61,18 @@
         <option value="$PROJECT_DIR$/express/app.js" />
         <option value="$PROJECT_DIR$/express/middleware/loginCheck.js" />
         <option value="$PROJECT_DIR$/express/routes/blog.js" />
+        <option value="$PROJECT_DIR$/koa/model/resModel.js" />
+        <option value="$PROJECT_DIR$/koa/conf/db.js" />
+        <option value="$PROJECT_DIR$/koa/app.js" />
+        <option value="$PROJECT_DIR$/koa/db/mysql.js" />
+        <option value="$PROJECT_DIR$/koa/controller/blog.js" />
+        <option value="$PROJECT_DIR$/koa/utils/cryp.js" />
+        <option value="$PROJECT_DIR$/koa/controller/user.js" />
+        <option value="$PROJECT_DIR$/koa/middleware/loginCheck.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="811" />
@@ -63,6 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,11 +91,21 @@
               <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="webServer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -120,14 +151,15 @@
       <workItem from="1560309005393" duration="17000" />
       <workItem from="1560356155888" duration="1637000" />
       <workItem from="1561973533491" duration="33000" />
+      <workItem from="1562132201270" duration="2953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15760000" />
+    <option name="totallyTimeSpent" value="18713000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="809" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -267,6 +299,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/model/resModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/conf/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/controller/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="60" column="6" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/utils/cryp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/middleware/loginCheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/controller/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/db/mysql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="49" column="48" lean-forward="true" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
         </state>
       </provider>
     </entry>
