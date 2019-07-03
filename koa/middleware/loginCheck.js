@@ -1,9 +1,9 @@
-const {ErrModel} = require('../model/resModel')
+const {ErrorModel} = require('../model/resModel')
 
-module.exports = asynv (ctx,next) => {
+module.exports = async (ctx,next) => {
     if (ctx.session.username) {
         await next()
         return
     }
-    ctx.body = new ErrModel('未登录')
+    ctx.body = new ErrorModel('未登录')
 }

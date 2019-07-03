@@ -7,6 +7,9 @@ const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
 const session = require('koa-generic-session')
 const redisStore = require('koa-redis')
+const path = require('path')
+const fs = require('fs')
+const morgan = require('koa-morgan')
 
 const index = require('./routes/index')
 const users = require('./routes/users')
@@ -37,6 +40,20 @@ app.use(async (ctx, next) => {
   const ms = new Date() - start
   console.log(`${ctx.method} ${ctx.url} - ${ms}ms`)
 })
+
+const ENV = process.env.NODE_ENV
+if (ENV !== 'production') {
+  app.use(morgan('dev'))
+}else {
+  const logFileName = path.join(__dirname, 'logs', 'access.log')
+  const writeStream = fs.createWriteStream(logFileName,{
+    flags: 'a'
+  })
+  app.use(morgan('combined',{
+    stream: writeStream
+  }))
+}
+
 app.keys = ['WJiol#23123_']
 app.use(session({
   // 配置 cookie
@@ -50,6 +67,8 @@ app.use(session({
     all: `${REDIS_CONF.host}:${REDIS_CONF.port}`
   })
 }))
+
+
 // routes
 app.use(index.routes(), index.allowedMethods())
 app.use(users.routes(), users.allowedMethods())
