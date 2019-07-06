@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3d95c2-9e6c-4aa4-9ffc-f2d0a5f75cf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/koa/logs/access.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa/lib/koa/like-koa.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/koa/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa/middleware/loginCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa/middleware/loginCheck.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa/routes/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa/routes/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/koa/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa/routes/users.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/koa/package.json">
+        <entry file="file://$PROJECT_DIR$/koa/lib/koa/like-koa.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+            <state relative-caret-position="456">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -41,6 +38,7 @@
       <find>delBlog</find>
       <find>删除</find>
       <find>engine</find>
+      <find>morgan</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,12 +75,13 @@
         <option value="$PROJECT_DIR$/koa/routes/blog.js" />
         <option value="$PROJECT_DIR$/koa/routes/user.js" />
         <option value="$PROJECT_DIR$/koa/middleware/loginCheck.js" />
-        <option value="$PROJECT_DIR$/koa/app.js" />
         <option value="$PROJECT_DIR$/koa/package.json" />
+        <option value="$PROJECT_DIR$/koa/app.js" />
+        <option value="$PROJECT_DIR$/koa/lib/koa/like-koa.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="811" />
@@ -93,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,6 +109,25 @@
               <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="webServer" type="462c0819:PsiDirectoryNode" />
               <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
               <item name="middleware" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -117,11 +136,16 @@
               <item name="koa" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,18 +193,19 @@
       <workItem from="1561973533491" duration="33000" />
       <workItem from="1562132201270" duration="2953000" />
       <workItem from="1562135962178" duration="76000" />
-      <workItem from="1562151538448" duration="4564000" />
+      <workItem from="1562151538448" duration="4828000" />
+      <workItem from="1562434449938" duration="1514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23353000" />
+    <option name="totallyTimeSpent" value="25131000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="809" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -192,7 +217,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.53277546" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.17107093" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -301,6 +326,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/koa/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/logs/access.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/koa/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -308,20 +350,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa/logs/access.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/koa/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="25">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa/package.json">
+    <entry file="file://$PROJECT_DIR$/koa/lib/koa/like-koa.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        <state relative-caret-position="456">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
