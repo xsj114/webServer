@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3d95c2-9e6c-4aa4-9ffc-f2d0a5f75cf6" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/koa/lib/koa/like-koa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa/routes/users.js" beforeDir="false" />
+>>>>>>> 2902c0981243ef25ffa4c85d4a533c71f47fd931
     </list>
     <ignored path="$PROJECT_DIR$/node/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -15,13 +23,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/koa/lib/koa/like-koa.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>console</find>
+<<<<<<< HEAD
       <find>id</find>
       <find>keyword</find>
+=======
+      <find>normalizePort</find>
+      <find>delBlog</find>
+      <find>删除</find>
+      <find>engine</find>
+      <find>morgan</find>
+>>>>>>> 2902c0981243ef25ffa4c85d4a533c71f47fd931
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -30,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node/src/utils/log.js" />
         <option value="$PROJECT_DIR$/node/src/utils/copy.sh" />
         <option value="$PROJECT_DIR$/node/logs/access.log" />
@@ -39,14 +64,43 @@
         <option value="$PROJECT_DIR$/node/src/controller/blog.js" />
         <option value="$PROJECT_DIR$/node/src/utils/cryp.js" />
         <option value="$PROJECT_DIR$/node/src/controller/user.js" />
+        <option value="$PROJECT_DIR$/express/package.json" />
+        <option value="$PROJECT_DIR$/express/db/mysql.js" />
+        <option value="$PROJECT_DIR$/express/conf/db.js" />
+        <option value="$PROJECT_DIR$/express/utils/cryp.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/express/bin/www" />
+        <option value="$PROJECT_DIR$/express/routes/user.js" />
+        <option value="$PROJECT_DIR$/express/db/redis.js" />
+        <option value="$PROJECT_DIR$/express/app.js" />
+        <option value="$PROJECT_DIR$/express/middleware/loginCheck.js" />
+        <option value="$PROJECT_DIR$/express/routes/blog.js" />
+        <option value="$PROJECT_DIR$/koa/model/resModel.js" />
+        <option value="$PROJECT_DIR$/koa/conf/db.js" />
+        <option value="$PROJECT_DIR$/koa/db/mysql.js" />
+        <option value="$PROJECT_DIR$/koa/controller/blog.js" />
+        <option value="$PROJECT_DIR$/koa/utils/cryp.js" />
+        <option value="$PROJECT_DIR$/koa/controller/user.js" />
+        <option value="$PROJECT_DIR$/koa/routes/blog.js" />
+        <option value="$PROJECT_DIR$/koa/routes/user.js" />
+        <option value="$PROJECT_DIR$/koa/middleware/loginCheck.js" />
+        <option value="$PROJECT_DIR$/koa/package.json" />
+        <option value="$PROJECT_DIR$/koa/app.js" />
+        <option value="$PROJECT_DIR$/koa/lib/koa/like-koa.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="2" />
     <option name="y" value="31" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
+=======
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="811" />
+>>>>>>> 2902c0981243ef25ffa4c85d4a533c71f47fd931
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -62,6 +116,51 @@
               <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="webServer" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webServer" type="462c0819:PsiDirectoryNode" />
+              <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 2902c0981243ef25ffa4c85d4a533c71f47fd931
           </expand>
           <select />
         </subPane>
@@ -71,9 +170,16 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/express" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/express" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,19 +208,36 @@
       <workItem from="1560183727060" duration="3219000" />
       <workItem from="1560307274492" duration="1158000" />
       <workItem from="1560309005393" duration="17000" />
+<<<<<<< HEAD
       <workItem from="1560356155888" duration="1702000" />
       <workItem from="1560396277178" duration="27000" />
       <workItem from="1560615631354" duration="2755000" />
       <workItem from="1561306703866" duration="103000" />
       <workItem from="1561442244884" duration="16000" />
+=======
+      <workItem from="1560356155888" duration="1637000" />
+      <workItem from="1561973533491" duration="33000" />
+      <workItem from="1562132201270" duration="2953000" />
+      <workItem from="1562135962178" duration="76000" />
+      <workItem from="1562151538448" duration="4828000" />
+      <workItem from="1562434449938" duration="1514000" />
+>>>>>>> 2902c0981243ef25ffa4c85d4a533c71f47fd931
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="9669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="811" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="25131000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
+    <editor active="true" />
+>>>>>>> 2902c0981243ef25ffa4c85d4a533c71f47fd931
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -128,7 +251,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.5006954" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.17107093" />
+>>>>>>> 2902c0981243ef25ffa4c85d4a533c71f47fd931
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -139,6 +266,22 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node/logs/.access.log" />
+    <entry file="file://$PROJECT_DIR$/node/logs/2019-06-11.access.log" />
+    <entry file="file://$PROJECT_DIR$/node/src/utils/copy.sh" />
+    <entry file="file://$PROJECT_DIR$/node/logs/error.log" />
+    <entry file="file://$PROJECT_DIR$/node/logs/event.log" />
+    <entry file="file://$PROJECT_DIR$/node/src/utils/log.js" />
+    <entry file="file://$PROJECT_DIR$/node/src/utils/readline.js" />
+    <entry file="file://$PROJECT_DIR$/node/logs/access.log" />
+    <entry file="file://$PROJECT_DIR$/node/app.js" />
+    <entry file="file://$PROJECT_DIR$/node/src/db/redis.js" />
+    <entry file="file://$PROJECT_DIR$/node/src/db/mysql.js" />
+    <entry file="file://$PROJECT_DIR$/node/src/controller/user.js" />
+    <entry file="file://$PROJECT_DIR$/node/src/utils/cryp.js" />
+    <entry file="file://$PROJECT_DIR$/express/node_modules/express/lib/view.js" />
+    <entry file="file://$PROJECT_DIR$/node/src/controller/blog.js" />
+    <entry file="file://$PROJECT_DIR$/express/utils/cryp.js" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -146,42 +289,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/logs/.access.log" />
-    <entry file="file://$PROJECT_DIR$/node/logs/2019-06-11.access.log" />
-    <entry file="file://$PROJECT_DIR$/node/src/utils/copy.sh">
+    <entry file="file://$PROJECT_DIR$/express/conf/db.js" />
+    <entry file="file://$PROJECT_DIR$/express/model/resModel.js" />
+    <entry file="file://$PROJECT_DIR$/express/controller/user.js" />
+    <entry file="file://$PROJECT_DIR$/express/db/mysql.js" />
+    <entry file="file://$PROJECT_DIR$/express/package.json" />
+    <entry file="file://$PROJECT_DIR$/express/controller/blog.js" />
+    <entry file="file://$PROJECT_DIR$/html-test/admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="63">
+          <caret line="119" column="9" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/logs/error.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/logs/event.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/src/utils/log.js">
+    <entry file="file://$PROJECT_DIR$/express/routes/blog.js" />
+    <entry file="file://$PROJECT_DIR$/express/db/redis.js" />
+    <entry file="file://$PROJECT_DIR$/express/routes/user.js" />
+    <entry file="file://$PROJECT_DIR$/express/app.js" />
+    <entry file="file://$PROJECT_DIR$/express/middleware/loginCheck.js" />
+    <entry file="file://$PROJECT_DIR$/express/bin/www" />
+    <entry file="file://$PROJECT_DIR$/koa/model/resModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="646">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/src/utils/readline.js">
+    <entry file="file://$PROJECT_DIR$/koa/conf/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        <state relative-caret-position="741">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/logs/access.log">
+    <entry file="file://$PROJECT_DIR$/koa/controller/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="437">
+          <caret line="60" column="6" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/koa/utils/cryp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/controller/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/node/src/db/redis.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -206,12 +368,54 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node/src/controller/blog.js">
+=======
+    <entry file="file://$PROJECT_DIR$/koa/db/mysql.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="437">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/koa/routes/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/middleware/loginCheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/logs/access.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/routes/user.js">
+>>>>>>> 2902c0981243ef25ffa4c85d4a533c71f47fd931
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/node/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -226,6 +430,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+=======
+    <entry file="file://$PROJECT_DIR$/koa/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa/lib/koa/like-koa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+>>>>>>> 2902c0981243ef25ffa4c85d4a533c71f47fd931
         </state>
       </provider>
     </entry>
